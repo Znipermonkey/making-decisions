@@ -7,7 +7,12 @@
 */
 
 //CODE HERE
-
+let lovesCode = true
+if (lovesCode === true){
+  console.log("I love to code!")
+}else{
+  console.log("Coding has its challenges")
+}
 // For problems 2-3 use the following lines of code:
 var amysAge = 29;
 var brittanisAge = 34;
@@ -21,6 +26,14 @@ var brittanisBirthYear = 1986;
 */
 
 //CODE HERE
+if (amysAge > brittanisAge){
+  console.log("Amy is older.")
+} else if (brittanisAge > amysAge){
+  console.log("Brittani is older.")
+}else{
+  console.log ("Both Brittani and Amy are the same age.")
+}
+
 
 ////////// PROBLEM 3 //////////
 
@@ -29,6 +42,12 @@ var brittanisBirthYear = 1986;
 */
 
 //CODE HERE
+if (amysBirthYear === brittanisBirthYear){
+  console.log ("Brittani and Amy were born in the same year.")
+}else {
+  console.log ("Brittani and Amy were not born in the same year.")
+}
+
 
 ////////// PROBLEM 4 //////////
 
@@ -41,6 +60,24 @@ let rain = true;
 */
 
 //CODE HERE
+if (rain = true){
+  if (temperature >= 80){
+    console.log("one should wear a t-shirt and take an umbrella.")
+  }else if (temperature >= 60){
+    console.log("one should wear a rain-jacket.")
+  }else{
+    console.log("one should wear a jacket and carry an umbrella.")
+  }
+}else{
+  if (temperature >= 80){
+    console.log("one should wear a t-shirt and shorts.")
+  }else if (temperature >= 60){
+    console.log("one should wear a long sleeve shirt.")
+  }else{
+    console.log("one should wear a jacket and pants.")
+  }
+}
+
 
 ////////// PROBLEM 5 //////////
 
@@ -49,6 +86,10 @@ let rain = true;
 */
 
 //CODE HERE
+for (let i = 1; i <= 10; i++){
+  console.log ("Hello")
+}
+
 
 ////////// PROBLEM 6 //////////
 
@@ -57,7 +98,9 @@ let rain = true;
 */
 
 //CODE HERE
-
+for (let e = 1; e <= 10; e++){
+  console.log (e)
+}
 ////////// PROBLEM 7 //////////
 
 /*
